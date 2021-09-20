@@ -16,6 +16,7 @@ function Navbar(props) {
                     <button type="button" className="btn btn-primary" id="About" onClick={() => props.setCurrentPage('About')}>About Me</button>
                     <button type="button" className="btn btn-primary" id="Projects" onClick={() => props.setCurrentPage('Projects')}>Projects</button>
                     <button type="button" className="btn btn-primary" id="Resume" onClick={() => props.setCurrentPage('Resume')}>Resume</button>
+                    <button type="button" className="btn btn-primary" id="Contact" onClick={() => props.setCurrentPage('Contact')}>Contact</button>
                 </div>
             </div>
         </div>
