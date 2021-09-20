@@ -39,7 +39,7 @@ function Resume() {
             <ol class="bullets mt-2">
                 <li>Developed an e-commerce site based on Materialize CSS, 
                      Handlebars and Node.js expanding revenue streams and customer engagement (deployed on Heroku)</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias possimus unde quibusdam, recusandae aspernatur architecto totam beatae aut dignissimos aperiam mollitia praesentium? Dolorem, eaque alias!</li>
+                <li>Organized weekly meetings to review any ongoing team issues and get updates on development progression.</li>
                 <li>Learned new emerging technologies and took initiative to offer technical direction and creative solutions.</li>
                 <li>Built, tested and deployed a variety of web applications using the MERN stack.</li>
             </ol>
