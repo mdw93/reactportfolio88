@@ -6,3 +6,9 @@
 .cyan {
     color: lightskyblue;
 }
+
+@media (min-width: 576px) {
+    #top {
+      margin-top: 10px !important;
+    }
+  }
