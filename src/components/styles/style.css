@@ -1,0 +1,8 @@
+.bullets {
+    list-style-type: disc !important;
+    padding-left: 2em;
+}
+
+.cyan {
+    color: lightskyblue;
+}
