@@ -1,54 +1,52 @@
 import React from 'react';
-import Project from './public/assets/images/Project-1.jpg'
-import Planner from './public/assets/images/planner-1.jpg'
-import Password from './public/assets/images/password-1.jpg'
+import FOS from './public/assets/images/FOS.png'
+import NOTETAKER from './public/assets/images/NOTETAKER.png'
+import REACTPORTFOLIO from './public/assets/images/REACTPORTFOLIO.png'
 
 function Projects() {
 
     return (
-      <div>
-              <h1 class="display-5 fw-bold centeredText" id="projects">Projects</h1>
-    <div class="d-flex justify-content-center w-80 p-3">
-        <div class="p-2 bd-highlight">
-            <div class="card">
-                <img src={Project}
-                    class="card-img-top" alt="API based recipe website for food and drink"></img>
-                <div class="card-body">
-                    <h5 class="card-title">API based recipe website</h5>
-                    <p class="card-text">Website to help an individual find a food or drink recipe based on a selection criteria.</p>
-                    <a target="_blank" rel="noreferrer" href="https://fjunior1.github.io/test-prj1/" class="btn btn-primary">Deployed Site</a>
+        <>
+        <div className="row mt-5">
+                <div className="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-8 offset-sm-2">
+                    <div className="card ">
+                        <img className="card-img-top" src={FOS} alt="An online coffee shop - branded FOS"></img>
+                        <div className="card-body">
+                          <h5 className="card-title">Online Coffee Shop</h5>
+                          <p className="card-text">Online ordering platform for the fictional FOS Coffee Shop. The project has a few key features, including a member rewards program, the ability to order products and pay online or in the store, and fully-editable customer profiles.</p>
+                          <a href="https://fos-coffee-shop.herokuapp.com/" target="_blank" rel="noreferrer" className="btn btn-primary">Deployed site</a>
+                        </div>
+                      </div>
+                    </div>
                 </div>
-            </div>
 
-        </div>
-    </div>
+                <div className="row mt-5">
+                    <div className="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-8 offset-sm-2">
+                        <div className="card ">
+                            <img className="card-img-top" src={NOTETAKER} alt="Homepage for a express notetaker app"></img>
+                            <div className="card-body">
+                              <h5 className="card-title">Notetaking application</h5>
+                              <p className="card-text">Express based application, giving users the ability to create and store notes</p>
+                              <a href="https://notetakergt88.herokuapp.com/" target="_blank" rel="noreferrer" className="btn btn-primary">Deployed site</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
 
-    <div class="d-flex justify-content-center w-30 p-3">
-        <div class="p-2 bd-highlight">
-            <div class="card">
-                <img src={Planner}
-                    class="card-img-top" alt="Workday planner based on local storage"></img>
-                <div class="card-body">
-                    <h5 class="card-title">Local storage based Daily Planner</h5>
-                    <p class="card-text">Daily planner based around workhours, stores events in local storage.</p>
-                    <a target="_blank" rel="noreferrer" href="https://mdw93.github.io/dailyPlanner/" class="btn btn-primary">Deployed Site</a>
-                </div>
-            </div>
-        </div>
-        <div class="p-2 bd-highlight w-30 p-3">
-            <div class="card">
-                <img src={Password}
-                    class="card-img-top" alt="Password Generator"></img>
-                <div class="card-body">
-                    <h5 class="card-title">Password Generator</h5>
-                    <p class="card-text">Generates a complex password based on a user selection of parameters.</p>
-                    <a target="_blank" rel="noreferrer" href="https://mdw93.github.io/randompassword/" class="btn btn-primary">Deployed Site</a>
-                </div>
-            </div>
-        </div>
-    </div>
-      </div>
+                    <div className="row mt-5 mb-5">
+                        <div className="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-8 offset-sm-2">
+                            <div className="card ">
+                                <img className="card-img-top" src={REACTPORTFOLIO} alt="Homepage for a react portfolio site"></img>
+                                <div className="card-body">
+                                  <h5 className="card-title">React Portfolio</h5>
+                                  <p className="card-text">Portfolio webpage built using react</p>
+                                  <a href="https://reactportfolio888.herokuapp.com/" target="_blank" rel="noreferrer" className="btn btn-primary">Deployed site</a>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        </>
     );
-  }
+}
 
 export default Projects;
