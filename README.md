@@ -8,7 +8,7 @@ Installation_instructions N/A
 
 Future work - need to make adjustments to the project cards and make the resume better on mobile screens
 
-Link to live demo: https://reactportfolio888.herokuapp.com/#A
+Link to live demo: https://reactportfolio888.herokuapp.com/
 
 Contributors Matthew Williams
 
